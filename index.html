@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>统一版本.md</title><link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --code-block-bg-color: inherit; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { background: rgb(181, 214, 252); text-shadow: none; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; padding-bottom: 70px; white-space: pre-wrap; overflow-x: visible; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+.typora-export #write { margin: 0px auto; }
+#write > p:first-child, #write > ul:first-child, #write > ol:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child, #write > table:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+input, button, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+::before, ::after, * { box-sizing: border-box; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.typora-export p { white-space: normal; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0rem; -webkit-margin-after: 0rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
+figure { max-width: 100%; overflow-x: auto; margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+pre { white-space: pre-wrap; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: var(--code-block-bg-color); position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.CodeMirror-line { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
+.footnotes + .footnotes { margin-top: -1em; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: transparent; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li p, li .mathjax-block { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
+@media print {
+  html, body { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0mm; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > img:only-child { display: block; margin: auto; }
+p .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+.mathjax-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
+.task-list { list-style-type: none; }
+.task-list-item { position: relative; padding-left: 1em; }
+.task-list-item input { position: absolute; top: 0px; left: 0px; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc::after, .md-toc-content::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+.md-tag { opacity: 0.5; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: monospace; }
+code { text-align: left; }
+h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
+a.md-print-anchor { border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background: transparent !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0em; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: normal; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: normal; src: local("Open Sans Regular"), url("./github/400.woff") format("woff"); }
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: normal; src: local("Open Sans Italic"), url("./github/400i.woff") format("woff"); }
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: bold; src: local("Open Sans Bold"), url("./github/700.woff") format("woff"); }
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: bold; src: local("Open Sans Bold Italic"), url("./github/700i.woff") format("woff"); }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 20px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+body > :first-child { margin-top: 0px !important; }
+body > :last-child { margin-bottom: 0px !important; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border-width: 0px 0px 1px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-left-color: initial; border-image: initial; overflow: hidden; box-sizing: content-box; border-bottom-color: rgb(221, 221, 221); }
+body > h2:first-child { margin-top: 0px; padding-top: 0px; }
+body > h1:first-child { margin-top: 0px; padding-top: 0px; }
+body > h1:first-child + h2 { margin-top: 0px; padding-top: 0px; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child { margin-top: 0px; padding-top: 0px; }
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 { margin-top: 0px; padding-top: 0px; }
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p { margin-top: 0px; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(221, 221, 221); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(204, 204, 204); margin: 0px; padding: 0px; }
+table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border: 1px solid rgb(204, 204, 204); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(204, 204, 204); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); }
+.md-fences, code, tt { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-radius: 3px; font-family: Consolas, "Liberation Mono", Courier, monospace; padding: 2px 4px 0px; font-size: 0.9em; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding: 8px 1em 6px; }
+.task-list { padding-left: 0px; }
+.task-list-item { padding-left: 32px; }
+.task-list-item input { top: 3px; left: 8px; }
+@media screen and (min-width: 914px) {
+}
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { word-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border: 1px solid rgb(221, 221, 221); border-radius: 3px; font-family: Consolas, "Liberation Mono", Courier, monospace; padding: 2px 4px 0px; font-size: 0.9em; color: inherit; }
+.md-tag { color: inherit; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+#md-notification::before { top: 10px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+
+
+
+
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>宪法</h1><h2><a name='header-n5' class='md-header-anchor '></a>序言</h2><p>我是一个在大学本科期间挂靠法学,并且也必须要参加法考的学生.在上大学之前几天,我就思考过要制定一部宪法性质的文件来规范自己大学期间的所作所为,这将是一项集成性质的文件,如果成功制定出来将有莫大意义.</p><p>然而,受制于认识与毅力的局限,那时的文件只写完了序言部分和总纲,甚至于连学业的第一节都没有结束,就草草收场了.后来发生的事情也证明了那时的不切实际.例如我在那一份文件当中坚持&quot;本专业至上&quot;,而所谓的&quot;本专业&quot;仍然是法学,这很难说符合发展需要.</p><p>现在,我在许多方面取得了成就,例如数学竞赛成功进入决赛,取得初级会计证等等,但是同时也应该意识到自己的不足之处,例如周期性会出现的疲软与腐烂状态.这些问题无时无刻不困扰着我.同时我也不会忘记自己的高考与高三的经历——那是我的靖康耻.总之,一部完善的文件势在必行.</p><p>正如我在最开始所说的,我虽然不是专门学习法律的学生,但是必须通过法考,以之为证书收集计划的一部分.需要明确的是,不能因为法学的原因而无视法考的存在,相反,因为这一项证书过于重要,我会全力以赴以取得它.</p><p>不难发现,这需要我有一定的法律素养,而提升法律素养的方式有很多,我可以坚持看今日说法或者法律讲堂,或者认真研读每一步法律的每一个字.然而这些都过于不切实际:我没有那么多时间.最合适的方式便是充当立法者,自己来约束一下自己应有的行为.</p><p>法律对于国家的重要性无需多言,自律对于一个人的作用也是一样的.通过自律,我曾经创造出过灿烂的成果——这必须延续下去.无论如何我都应该重塑自己的辉煌.</p><p>现在,我以文件的形式确定下来自己要做的事情,这一步文件对我应当有约束力.它的实施,有赖于我的自发遵守.</p><h2><a name='header-n67' class='md-header-anchor '></a>第一章 总纲</h2><p><strong>第一条</strong>	为促进学业进步,改善人际关系,提升未来收入,保障健康作息,制定本法.</p><p><strong>第二条</strong>	一切具有根本性质的学习战略,人际问题,都属本法调整范围.</p><p>​	但是,具体的学习与交往问题,不在此列.</p><p><strong>第三条</strong>	本人应当以学业为中心,重视人际关系,在不明显破坏前两者的条件下发展财政收入.</p><p>​	坚决反对一切形式的学粹主义与学废主义.</p><p><strong>第四条</strong>	受本法调整的行为,应当以个人利益至上,在合理必要范围内照顾他人与集体利益.</p><p>​	照顾到集体利益时,应当坚持理性主义的核心价值观</p><p><strong>第五条</strong>	受本法调整的行为,其价值判断应以结果为导向,实质重于形式.</p><p>​	坚决反对一切形式的标签化判断.</p><p>​	但是,依其性质具有完全的过程性的除外.</p><p><strong>第六条</strong>	做出行为时,应当考虑现有条件,突破现有条件,寻找最优解.</p><p><strong>第七条</strong>	可以且应当根据外部内部条件发展,在合理范围内修订本法.</p><p>​	但是,在本法中专门说明不得修改的除外.</p><p><strong>第八条</strong>	本人做出行为或决定时,应当独立自主,并在合理范围内考虑他人建议及意见</p><p>​	但是,具有私密性质的或本法另有规定的,无需考虑他人意见</p><p><strong>第九条</strong>	本人应当重视主要矛盾,忽略次要矛盾.</p><p>​	主要矛盾与次要矛盾之间可以相互转换.</p><h2><a name='header-n110' class='md-header-anchor '></a>第二章 学业</h2><p><strong>第一条</strong>	[学业的定义]</p><p><strong>第二条</strong>	学业的学习分为直接备考和间接备考.</p><p>直接备考是以取得高分或尽可能高的排名为唯一直接目的,轻视知识积累,重视与考试挂钩的行为.</p><p>间接备考是不以考试或竞赛为直接目的,切实掌握知识,武装自身能力,对于考试有间接的有利影响的行为.</p><p>没有相对应的考试或竞赛,但符合间接备考的其他条件的,以间接备考论.</p><p><strong>第三条</strong>	学习的状态分为卷,摆烂与腐烂三个状态.</p><p>卷是指一天当中使用了大部分可用时间于学业的连续性状态.</p><p>摆烂指不符合卷的条件,但是作息规律未发生明显混乱,思维能力仍然能够得到组织的连续性状态.</p><p>腐烂指不符合卷的条件,且作息规律明显混乱的连续性状态.</p><p><strong>第四条</strong>	直接备考的卷态,未使得自己产生相应的主观意识的,称作;产生相应的主观意识的,称作动员状态.</p><p><strong>第五条</strong>	本人特有的爱好,满足学业定义的,为固有学业.</p><p><strong>第六条</strong>	固有学业应当以间接备考为主,提升内在能力</p><p><strong>第七条</strong>	应当积极拓展固有学业的变现渠道,在有条件的情况下推动其专业化于职业化</p><p><strong>第八条</strong>	未来拟定从事的职业或考研计划的特有考试科目,为专业.</p><p>本法所称专业,仅指考研计划的特有考试科目.</p><p><strong>第九条</strong>	专业不得与固有学业相冲突.</p><p>本人根据自身情况,固有学业,个人能力与考研需要,合理确定专业.</p><p>本人专业为计算机.</p><p><strong>第十条</strong>	专业学习应直接备考与间接备考相结合.</p><p>专业的直接备考时间不宜过长.</p><p><strong>第十一条</strong>	不以考证为必要条件,对个人发展有帮助,满足学业定义的,为实用学业.</p><p><strong>第十二条</strong>	实用学业不应有直接备考行为.</p><p><strong>第十三条</strong>	实用学业的学习,应当以满足发展需要为第一要义.</p><p><strong>第十四条</strong>	本人根据实践需要,积极参加实用学业的实践活动.</p><p><strong>第十五条</strong>	以考证为必要条件,并且同时满足以下条件的,称作证书收集:</p><ul><li>该证书在社会观点下具有一定的含金量</li><li>考察内容与本人发展目标没有明显且严重的冲突</li><li>考察内容满足学业定义,考察形式不满足本法所规定的专业定义</li></ul><p><strong>第十六条</strong>	证书收集应以直接备考为主</p><p>证书的直接备考行为,以报名成功为必要条件.</p><p><strong>第十七条</strong>	在合理必要限度内,应当参加学校组织的学业活动,并坚持&quot;少挂科&quot;原则</p><p>在学校组织的期末考试中,不得使用有形的作弊方式</p><p><strong>第十八条</strong>	同时满足以上多种学业定义的,按照不同的组成部分与形式,分别适用相应的规定</p><h2><a name='header-n183' class='md-header-anchor '></a>第三章 社会关系</h2><p><strong>第一条</strong>	在交往过程中,本人根据本法,致力于形成良好的社会关系</p><p><strong>第二条</strong>	非业务往来相对频繁的人,为熟人;反之为生人.</p><p>本人严格控制熟人数量,保障与熟人的良好信任关系.</p><p>在与生人交流过程中,应当保持礼貌.</p><p><strong>第三条</strong>	女性与本人以明确且真实的意思表示确立关系，且同时满足以下条件的,为对象:</p><p>(一) 持续时间在24小时以上（含本数）；</p><p>(二) 在确立关系之前，在此问题上花费的财物在一万元人民币以下（不含本数）；</p><p>(三) 本人对对方拥有独占性权利，关系存续期间，对方不与其他男性确立关系或有亲密行为；</p><p>(四) 对方不得有怀孕、变性经历,且前任或发生关系的人中不得有黑人；</p><p>(五) 在确立关系以前有线下关系，没有线下关系但是确立关系之后又线下关系且对此予以确认的，“脱单”时间自线下见面时起算；</p><p>第一款,第二款,第四款,难以确定条件是否成立的,视为不成立;</p><p>第三款,难以确定条件是否成立的,视为成立.</p><p>除第五款的特殊情形以外，“脱单”时间自双方确立关系时起算。</p><p><strong>第四条</strong>	具有密切联系与血缘关系的近亲属,为家庭成员;具有密切联系的近亲属,参考适用家庭成员有关规定.</p><p>本人目前的家庭成员包括父母与胞兄弟姐妹,对于胞兄弟姐妹的配偶,参考适用家庭成员有关规定.</p><p><strong>第五条</strong>	本人与他人交往时,应当保持和睦,不得首先使用武力.</p><p><strong>第六条</strong>	对于有成为对象可能性的人,应当区别本人有没有付诸行动,分别进行处理.</p><p>本人根据实际情况,决定是否发展对象关系,以何种形式发展对象关系,在何时发展对象关系,反对一刀切与标签化</p><p>发展对象一事,应在合理必要范围内,对熟人进行告知.</p><p><strong>第七条</strong>	发展对象以星期为计量,计划单位.</p><p><strong>第八条</strong>	处理家庭成员关系时,应当坚持自主原则,但是反对自主原则的一刀切和标签化.</p><p><strong>第九条</strong>	与财政问题直接挂钩的交流,为业务往来,交流对象为客户.</p><p>业务往来关系处理,适用本法关于财政的有关规定.</p><p><strong>第十条</strong>	与特定问题挂钩但是不与财政问题挂钩的,参照适用本法关于财政的有关规定.</p><h2><a name='header-n236' class='md-header-anchor '></a>第四章 生活作息</h2><p><strong>第一条</strong>	本人致力于养成健康正常且与学业相适应的生活作息规律.</p><p><strong>第二条</strong>	在睡眠问题上,应坚持&quot;早睡早起身体好&quot;的原则,提倡并努力践行早睡.</p><p><strong>第三条</strong>	睡眠开始时间为上床时间,按照以下标准确定:</p><p>(一)身体处于躺下状态</p><p>(二)与外界的光线相互隔绝</p><p>(三)与电子设备相互隔绝</p><p>同时满足以上三个条件的开始时间,为睡眠开始时间</p><p><strong>第四条</strong>	晚上的睡眠开始时间,以十一点,十一点半,与十二点为划分标准进行评价.</p><p><strong>第五条</strong>	睡眠之前要做好声音隔绝工作,尽可能避免被他人吵醒.</p><p>本人不慎将他人吵醒或干扰到他人睡眠的,应当及时道歉,并给予必要的补偿.</p><p><strong>第六条</strong>	早上十点之前起床,睡了明显的午觉且精力充沛的,为第一类推荐作息时间.</p><p>早上与十点之后起床,没有明显午觉且精力充沛的,为第二类推荐作息时间.</p><p>在时间允许的条件下,第二类推荐作息时间优于第一类推荐作息时间,第一类推荐作息时间优于其他作息时间.</p><p><strong>第七条</strong>	手机及其他明显有害于眼睛的电子设备设备使用时长应当被控制.</p><p><strong>第八条</strong>	电子设备使用范围应当分工明确.</p><p><strong>第九条</strong>	本法所称电子设备,包括手机,平板电脑与笔记本电脑以及其他可能的电子设备.</p><p><strong>第十条</strong>	本人实施严格禁烟政策,不得抽任何形式的烟草制品与仿烟草制品.</p><p>此条规定,在之后的法典修改过程中,不得修改.</p><p><strong>第十一条</strong>	(锻炼)</p><p><strong>第十二条</strong>	在发现身体出现问题时,应当及时前往正规机构检查.</p><p>体检应坚持预防与治疗相结合的原则.</p><p><strong>第十三条</strong>	在成功破处之前,不得进行手淫活动,但在女方或对象直接要求下的除外.</p><p><strong>第十四条</strong>	开始观看性直接相关资料的时间不得晚于晚上十点.</p><p><strong>第十五条</strong>	与她人发生性关系时,应当考虑到法律风险与生理风险.</p><p><strong>第十六条</strong>	与与本人发生性关系的人的关系,参考使用本法关于对象与情感问题的规定.</p><h2><a name='header-n298' class='md-header-anchor '></a>第五章 财政</h2><p><strong>第一条</strong>	本章调整财政资金的取得与使用.</p><p><strong>第二条</strong>	在处理财政问题时,应当以取得收入为重点,兼顾削减支出.</p><p><strong>第三条</strong>	在处理财政问题时,应当注重留存证据与有利证据,尽可能避免不利证据留存.</p><p><strong>第四条</strong>	本章所称取得收入,是指在求学期间通过非全日制用工获得金钱形式的报酬.</p><p>应区分主营业务收入与其他业务收入,合理调整收入取得关系.</p><p>当前主营业务收入为家教.</p><p><strong>第五条</strong>	主营业务收入时薪必须在75人民币每小时以上.</p><p><strong>第六条</strong>	应勇于尝试,积极探索不同的收入取得形式,推动收入可能来源多样化.</p><p><strong>第七条</strong>	积极推进实用学业学习与证书收集,发挥其对取得收入的促进作用.</p><p>取得收入与学业挂钩的,参照使用本法关于学业的有关规定.</p><p><strong>第八条</strong>	以下条件成立时,可以移动质量体积较大的财物:</p><p><strong>第九条</strong>	单次支出金额额或基于同一法律关系客体叠加产生的支出金额额大于160人民币的,为大宗支出.</p><p><strong>第十条</strong>	可能发生大宗支出时,应及时向熟人与专业人士说明,支出事项不紧迫的,应当设立冷静期.</p><p><strong>第十一条</strong>	关注不同的损失来源,制定科学合理的方针避免损失.</p><h2><a name='header-n330' class='md-header-anchor '></a>附则</h2><p><strong>第一条</strong>	(实施时间)</p><p><strong>第二条</strong>	(他人内容获取,发行方式与实施监督)</p><p><strong>第三条</strong>	违反本法规定时,须书写情况说明与检讨,检讨所作不当的地方并制定计划防止下次再犯.</p><p><strong>第四条</strong>	本法所使用到的法律术语,国家法律有说明的,适用国家法律的有关说明.</p><p>&nbsp;</p></div>
+</body>
+</html>
